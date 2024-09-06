@@ -1,4 +1,22 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer {
+  background-color: #282828;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  padding: 48px 24px;
+
+  @include pad-lg {
+    padding: 100px 0px;
+  }
+}
+
+.page-link:hover {
+  text-decoration: underline;
+}
+
+.contact-icon:hover {
+  background-color: #d4d4d4;
+}
+
+.copyright {
+  color: #d4d4d4;
 }
