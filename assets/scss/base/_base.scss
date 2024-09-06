@@ -11,3 +11,35 @@ a {
 p {
   letter-spacing: 0.02em;
 }
+
+@mixin pad-xl {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin pad-lg {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin pad {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (min-width: 576px) {
+    @content;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.material-symbols-outlined .fill {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
