@@ -1,0 +1,57 @@
+$primary: #0068ff;
+$primary-dark: #003bb7;
+$primary-80: #3f95ff;
+$primary-60: #66b1ff;
+$primary-40: #99cfff;
+$primary-10: #e5f4ff;
+
+$success: #7cd31f;
+$success-dark: #48970f;
+$success-20: #ddfaa5;
+$success-10: #f0fcd1;
+
+$info: #2aaffc;
+$info-dark: #1566b5;
+$info-20: #a9effe;
+$info-10: #d4f9fe;
+
+$alert: #ff3a55;
+$alert-dark: #b71d4f;
+$alert-20: #ffbbb0;
+$alert-10: #ffe0d7;
+
+$neutral-80: #4b4b4b;
+$neutral-60: #909090;
+$neutral-40: #ececec;
+$neutral-10: #f9f9f9;
+
+$custom-colors: (
+  "primary": $primary,
+  "primary-dark": $primary-dark,
+  "primary-80": $primary-80,
+  "primary-60": $primary-60,
+  "primary-40": $primary-40,
+  "primary-10": $primary-10,
+
+  "success": $success,
+  "success-dark": $success-dark,
+  "success-20": $success-20,
+  "success-10": $success-10,
+
+  "info": $info,
+  "info-dark": $info-dark,
+  "info-20": $info-20,
+  "info-10": $info-10,
+
+  "alert": $alert,
+  "alert-dark": $alert-dark,
+  "alert-20": $alert-20,
+  "alert-10": $alert-10,
+
+  "neutral-80": $neutral-80,
+  "neutral-60": $neutral-60,
+  "neutral-40": $neutral-40,
+  "neutral-10": $neutral-10,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
