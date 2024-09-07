@@ -9,9 +9,14 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <!-- 載入 Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>LEARNING</title>
-    <script type="module" crossorigin src="/Hexschool_2024-CSS-homework-w8/assets/main-801e56f7.js"></script>
-    <link rel="stylesheet" href="/Hexschool_2024-CSS-homework-w8/assets/main-bde3e76e.css">
+    <script type="module" crossorigin src="/Hexschool_2024-CSS-homework-w8/assets/main-1cfe09dd.js"></script>
+    <link rel="stylesheet" href="/Hexschool_2024-CSS-homework-w8/assets/main-e0fecae8.css">
   </head>
   <body>
     <!-- 桌電版 -->
@@ -111,7 +116,7 @@
                       </h2>
                       <ul class="list-unstyled">
                         <li
-                          class="d-flex border-bottom border-neutral-200 pt-3 pb-4"
+                          class="d-flex border-bottom border-neutral-40 pt-3 pb-4"
                         >
                           <div class="position-relative">
                             <img
@@ -131,7 +136,7 @@
                               小白也會！從零開始學習 Python 程式設計
                             </h3>
                             <div
-                              class="d-flex justify-content-between border-bottom border-neutral-200 pb-2"
+                              class="d-flex justify-content-between border-bottom border-neutral-40 pb-2"
                             >
                               <div class="d-flex align-items-center">
                                 <img
@@ -168,7 +173,7 @@
                           </div>
                         </li>
                         <li
-                          class="d-flex border-bottom border-neutral-200 pt-3 pb-4"
+                          class="d-flex border-bottom border-neutral-40 pt-3 pb-4"
                         >
                           <div class="position-relative">
                             <img
@@ -188,7 +193,7 @@
                               小白也會！從零開始學習 Python 程式設計
                             </h3>
                             <div
-                              class="d-flex justify-content-between border-bottom border-neutral-200 pb-2"
+                              class="d-flex justify-content-between border-bottom border-neutral-40 pb-2"
                             >
                               <div class="d-flex align-items-center">
                                 <img
@@ -227,7 +232,7 @@
                           </div>
                         </li>
                         <li
-                          class="d-flex border-bottom border-neutral-200 pt-3 pb-4"
+                          class="d-flex border-bottom border-neutral-40 pt-3 pb-4"
                         >
                           <div class="position-relative">
                             <img
@@ -247,7 +252,7 @@
                               小白也會！從零開始學習 Python 程式設計
                             </h3>
                             <div
-                              class="d-flex justify-content-between border-bottom border-neutral-200 pb-2"
+                              class="d-flex justify-content-between border-bottom border-neutral-40 pb-2"
                             >
                               <div class="d-flex align-items-center">
                                 <img
@@ -418,7 +423,7 @@
               </button>
 
               <button class="btn btn-primary px-8">
-                <a href="register.html"> 登入 / 註冊</a>
+                <a href="login.html">登入 / 註冊</a>
               </button>
             </div>
           </div>
@@ -504,65 +509,122 @@
         </ul>
 
         <div class="d-flex align-items-center mt-32">
-          <button class="btn btn-primary w-100">登入 / 註冊</button>
+          <button class="btn btn-primary w-100">
+            <a href="login.html"> 登入 / 註冊</a>
+          </button>
         </div>
       </div>
     </div>
   </nav>
 </div>
+    <div class="bg-teacher">
+      <div class="container">
+        <div class="text-center mb-6 mb-lg-10 mt-10">
+          <h2 class="fs-1 fw-bold mb-2">
+            <span class="title-deco"></span>頂尖講師帶你飛
+          </h2>
+          <p class="text-neutral-80">
+            超真實學員評價，這些講師你絕對不能錯過！
+          </p>
+        </div>
 
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="/Hexschool_2024-CSS-homework-w8/assets/cat-0c0689ae.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit,
-          iusto odio assumenda alias id nobis earum!
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 按鈕 -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
-    >
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              關閉
-            </button>
-            <button type="button" class="btn btn-primary">確定</button>
+        <div class="swiper swiperTeacher mb-30">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card border-0">
+                <img
+                  src="/Hexschool_2024-CSS-homework-w8/assets/teacher-3-28b5c93a.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-6">
+                  <h3 class="card-title fs-6 fw-bold mb-6">Mr. Robert</h3>
+                  <div class="d-flex align-items-center fs-7 mb-2">
+                    <p
+                      class="px-3 py-2 bg-neutral-40 rounded-pill fw-bold me-2"
+                    >
+                      音樂創作
+                    </p>
+                    <p class="d-flex align-items-center text-neutral-60">
+                      <span class="material-symbols-outlined icon-star me-1">
+                        star </span
+                      ><span class="fw-bold text-black me-1">4.0</span>(333)
+                    </p>
+                  </div>
+                  <p class="card-text text-neutral-80 mb-6">
+                    Robert
+                    的線上課程深受學生喜愛。他的教學方法生動有趣，能夠深入淺出地講解複雜的音樂理論，並結合實際演奏技巧，使學生能夠快速進步。
+                  </p>
+                  <a href="#" class="btn btn-primary fw-bold w-100"
+                    >探索 Mr. Robert 的教學課程</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card border-0">
+                <img
+                  src="/Hexschool_2024-CSS-homework-w8/assets/teacher-1-7be33f19.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-6">
+                  <h3 class="card-title fs-6 fw-bold mb-6">Kelly Beck</h3>
+                  <div class="d-flex align-items-center fs-7 mb-2">
+                    <p
+                      class="px-3 py-2 bg-neutral-40 rounded-pill fw-bold me-2"
+                    >
+                      英文寫作
+                    </p>
+                    <p class="d-flex align-items-center text-neutral-60">
+                      <span class="material-symbols-outlined icon-star me-1">
+                        star </span
+                      ><span class="fw-bold text-black me-1">4.8</span>(281)
+                    </p>
+                  </div>
+                  <p class="card-text text-neutral-80 mb-6">
+                    Kelly
+                    的教學方式靈活且富有創意，能夠有效提升學生的寫作技巧和自信心。Kelly
+                    注重實用性，針對學生的需求量身打造教學內容，並提供具體的反饋和建議。
+                  </p>
+                  <a href="#" class="btn btn-primary fw-bold w-100"
+                    >探索 Kelly Beck 的教學課程</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card border-0">
+                <img
+                  src="/Hexschool_2024-CSS-homework-w8/assets/teacher-2-8d68dd20.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-6">
+                  <h3 class="card-title fs-6 fw-bold mb-6">K. Lee</h3>
+                  <div class="d-flex align-items-center fs-7 mb-2">
+                    <p
+                      class="px-3 py-2 bg-neutral-40 rounded-pill fw-bold me-2"
+                    >
+                      音樂創作
+                    </p>
+                    <p class="d-flex align-items-center text-neutral-60">
+                      <span class="material-symbols-outlined icon-star me-1">
+                        star </span
+                      ><span class="fw-bold text-black me-1">4.8</span>(1245)
+                    </p>
+                  </div>
+                  <p class="card-text text-neutral-80 mb-6">
+                    K. Lee
+                    的教學風格親切且耐心，能夠循序漸進地引導學生進入樂團的世界。學生們紛紛表示，K.
+                    Lee 的課程讓他們對音樂產生了濃厚的興趣！
+                  </p>
+                  <a href="#" class="btn btn-primary fw-bold w-100"
+                    >探索 K. Lee 的教學課程</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -581,7 +643,7 @@
       />
       <div class="d-flex flex-column flex-lg-row text-white fs-8">
         <a href="#" class="page-link me-8 mb-6 mb-lg-0">常見問題</a>
-        <a href="#" class="page-link me-8 mb-6 mb-lg-0">關於我們</a>
+        <a href="about.html" class="page-link me-8 mb-6 mb-lg-0">關於我們</a>
         <a href="#" class="page-link me-8 mb-6 mb-lg-0">隱私權政策</a>
         <a href="#" class="page-link mb-10 mb-lg-0">使用者條款</a>
       </div>
@@ -620,5 +682,22 @@
 </div>
 
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper2 = new Swiper(".swiperTeacher", {
+        slidesPerView: 1,
+        spaceBetween: 12,
+
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 24,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
