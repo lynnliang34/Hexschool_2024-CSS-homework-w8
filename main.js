@@ -23,10 +23,10 @@ $("#inputPassword3").click(function () {
 $("#checkEye1").click(function () {
   if ($(this).hasClass("check-eye-close")) {
     $("#inputPassword1").attr("type", "text");
-    $(this).attr("src", "../assets/images/icons/ic_eye-open.png");
+    $(this).attr("src", "/assets/images/icons/ic_eye-open.png");
   } else {
     $("#inputPassword1").attr("type", "password");
-    $(this).attr("src", "../assets/images/icons/ic_eye_close.png");
+    $(this).attr("src", "/assets/images/icons/ic_eye_close.png");
   }
 
   $(this).toggleClass("check-eye-close").toggleClass("check-eye-open");
@@ -35,10 +35,10 @@ $("#checkEye1").click(function () {
 $("#checkEye2").click(function () {
   if ($(this).hasClass("check-eye-close")) {
     $("#inputPassword2").attr("type", "text");
-    $(this).attr("src", "../assets/images/icons/ic_eye-open.png");
+    $(this).attr("src", "/assets/images/icons/ic_eye-open.png");
   } else {
     $("#inputPassword2").attr("type", "password");
-    $(this).attr("src", "../assets/images/icons/ic_eye_close.png");
+    $(this).attr("src", "/assets/images/icons/ic_eye_close.png");
   }
 
   $(this).toggleClass("check-eye-close").toggleClass("check-eye-open");
@@ -47,10 +47,10 @@ $("#checkEye2").click(function () {
 $("#checkEye3").click(function () {
   if ($(this).hasClass("check-eye-close")) {
     $("#inputPassword3").attr("type", "text");
-    $(this).attr("src", "../assets/images/icons/ic_eye-open.png");
+    $(this).attr("src", "/assets/images/icons/ic_eye-open.png");
   } else {
     $("#inputPassword3").attr("type", "password");
-    $(this).attr("src", "../assets/images/icons/ic_eye_close.png");
+    $(this).attr("src", "/assets/images/icons/ic_eye_close.png");
   }
 
   $(this).toggleClass("check-eye-close").toggleClass("check-eye-open");
