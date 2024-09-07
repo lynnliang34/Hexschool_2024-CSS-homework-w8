@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 載入 Google icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- 載入 Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>LEARNING</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="banner-about"></div>
+
+    <div class="container">
+      <div class="d-lg-flex justify-content-lg-between">
+        <!-- 學院圖 -->
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <img
+            src="/assets/images/icons/ic_ hexschool.png"
+            alt=""
+            class="icon-hexschool bg-white rounded-circle mb-6"
+          />
+        </div>
+        <!-- 學院介紹文 -->
+        <div
+          class="mt-6 mt-lg-10 d-flex flex-column ms-lg-20 mb-12 mb-lg-25"
+          style="max-width: 976px"
+        >
+          <h1 class="align-self-center align-self-lg-start">六角學院</h1>
+          <div class="align-self-center align-self-lg-start">
+            <div class="d-flex align-items-center my-4 my-lg-6">
+              <span class="text-primary fw-bold fs-7 fs-lg-6 me-1">4</span>
+              <p class="text-neutral-80 fs-8 fs-lg-7">堂課</p>
+              <span class="text-neutral-60 fs-8 fs-lg-7 mx-3 mx-lg-6">|</span>
+              <span class="text-primary fw-bold fs-7 fs-lg-6 me-1">8463</span>
+              <p class="text-neutral-80 fs-8 fs-lg-7">收藏數</p>
+              <span class="text-neutral-60 fs-8 fs-lg-7 mx-3 mx-lg-6">|</span>
+              <span class="text-primary fw-bold fs-7 fs-lg-6 me-1">20,218</span>
+              <p class="text-neutral-80 fs-8 fs-lg-7">個學生</p>
+            </div>
+          </div>
+          <p class="text-neutral-80 mb-4 mb-lg-6">
+            六角學院 是一所線上程式開發學習單位，目前已累積 20,000
+            名學員，讓更多人藉由線上學習在職涯規劃上有更多的選擇是我們的使命是，如果您贊同我們的理念，歡迎加入六角。
+            我們將深入了解您想發展的領域，每位實習生我們都會量身打造專屬於您的舞台，並讓您實際瞭解公司營運
+            Know how。
+          </p>
+          <div class="align-self-center align-self-lg-start">
+            <div class="text-neutral-80 d-flex align-items-center">
+              <a
+                href="#"
+                class="contact-icon border rounded-circle d-flex justify-content-center align-items-center me-4"
+                style="width: 40px; height: 40px"
+              >
+                <i class="bi bi-line fs-6"></i>
+              </a>
+              <a
+                href="#"
+                class="contact-icon border rounded-circle d-flex justify-content-center align-items-center me-4"
+                style="width: 40px; height: 40px"
+              >
+                <i class="bi bi-youtube fs-6"></i>
+              </a>
+              <a
+                href="#"
+                class="contact-icon border rounded-circle d-flex justify-content-center align-items-center"
+                style="width: 40px; height: 40px"
+              >
+                <i class="bi bi-facebook fs-6"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 學院開的課 -->
+      <div class="d-flex align-items-center mb-6">
+        <img
+          src="../assets/images/deco/flower-5.png"
+          alt=""
+          class="flower-5 me-2"
+        />
+        <h2 class="fs-6 fs-lg-5">六角學院開的課</h2>
+      </div>
+      <div class="swiper swiperCourse mb-50">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card card-course">
+              <img
+                src="../assets/images/course-5.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <p
+                class="position-absolute top-0 start-0 px-3 py-2 bg-alert-10 text-alert rounded-pill text-nowrap fs-7 fw-bold m-4"
+              >
+                限時 8 折 🔥
+              </p>
+              <div class="card-body">
+                <h3
+                  class="fs-6 card-title mb-4 overflow-hidden"
+                  style="height: 48px"
+                >
+                  小白也會！從零開始學習 Python 程式設計
+                </h3>
+                <div
+                  class="d-flex justify-content-between border-bottom border-neutral-40 pb-4"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="../assets/images/avatar-2.png"
+                      alt=""
+                      width="32"
+                      class="me-2"
+                    />
+                    <h4 class="fs-7 text-neutral-80 fw-normal">Kelly Hsu</h4>
+                  </div>
+                  <div>
+                    <p class="text-primary fs-6 fw-bold">NT$ 2,480</p>
+                    <p class="text-neutral-60 fs-7 text-end">
+                      <del> NT$ 3,200</del>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between pt-4 fs-7">
+                  <div
+                    class="text-neutral-80 d-flex flex-column align-items-start"
+                  >
+                    <p class="px-3 py-1 bg-neutral-40 rounded-pill mb-1">
+                      程式開發
+                    </p>
+                    <p>已有 420 位同學加入</p>
+                  </div>
+                  <p class="d-flex align-items-center">
+                    <span class="material-symbols-outlined icon-star">
+                      star </span
+                    ><span class="fw-bold">4.0</span>(333)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card card-course">
+              <img
+                src="../assets/images/course-6.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <p
+                class="position-absolute top-0 start-0 px-3 py-2 bg-alert-10 text-alert rounded-pill text-nowrap fs-7 fw-bold m-4"
+              >
+                限時 8 折 🔥
+              </p>
+              <div class="card-body">
+                <h3
+                  class="fs-6 card-title mb-4 overflow-hidden"
+                  style="height: 48px"
+                >
+                  全面掌握 JavaScript 開發技術
+                </h3>
+                <div
+                  class="d-flex justify-content-between border-bottom border-neutral-40 pb-4"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="../assets/images/avatar-2.png"
+                      alt=""
+                      width="32"
+                      class="me-2"
+                    />
+                    <h4 class="fs-7 text-neutral-80 fw-normal">Kelly Hsu</h4>
+                  </div>
+                  <div>
+                    <p class="text-primary fs-6 fw-bold">NT$ 2,480</p>
+                    <p class="text-neutral-60 fs-7 text-end">
+                      <del> NT$ 3,200</del>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between pt-4 fs-7">
+                  <div
+                    class="text-neutral-80 d-flex flex-column align-items-start"
+                  >
+                    <p class="px-3 py-1 bg-neutral-40 rounded-pill mb-1">
+                      程式開發
+                    </p>
+                    <p>已有 420 位同學加入</p>
+                  </div>
+                  <p class="d-flex align-items-center">
+                    <span class="material-symbols-outlined icon-star">
+                      star </span
+                    ><span class="fw-bold">4.0</span>(333)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card card-course">
+              <img
+                src="../assets/images/course-7.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3
+                  class="fs-6 card-title mb-4 overflow-hidden"
+                  style="height: 48px"
+                >
+                  HTML & CSS 網頁設計基礎教程
+                </h3>
+                <div
+                  class="d-flex justify-content-between border-bottom border-neutral-40 pb-4"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="../assets/images/avatar-2.png"
+                      alt=""
+                      width="32"
+                      class="me-2"
+                    />
+                    <h4 class="fs-7 text-neutral-80 fw-normal">Kelly Hsu</h4>
+                  </div>
+                  <div>
+                    <p class="text-primary fs-6 fw-bold">NT$ 2,480</p>
+                    <p class="text-neutral-60 fs-7 text-end">
+                      <del> NT$ 3,200</del>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between pt-4 fs-7">
+                  <div
+                    class="text-neutral-80 d-flex flex-column align-items-start"
+                  >
+                    <p class="px-3 py-1 bg-neutral-40 rounded-pill mb-1">
+                      程式開發
+                    </p>
+                    <p>已有 420 位同學加入</p>
+                  </div>
+                  <p class="d-flex align-items-center">
+                    <span class="material-symbols-outlined icon-star">
+                      star </span
+                    ><span class="fw-bold">4.0</span>(333)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card card-course">
+              <img
+                src="../assets/images/course-8.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3
+                  class="fs-6 card-title mb-4 overflow-hidden"
+                  style="height: 48px"
+                >
+                  更進一步！深入學習 Node.js 與後端開發
+                </h3>
+                <div
+                  class="d-flex justify-content-between border-bottom border-neutral-40 pb-4"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="../assets/images/avatar-2.png"
+                      alt=""
+                      width="32"
+                      class="me-2"
+                    />
+                    <h4 class="fs-7 text-neutral-80 fw-normal">Kelly Hsu</h4>
+                  </div>
+                  <div>
+                    <p class="text-primary fs-6 fw-bold">NT$ 2,480</p>
+                    <p class="text-neutral-60 fs-7 text-end">
+                      <del> NT$ 3,200</del>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between pt-4 fs-7">
+                  <div
+                    class="text-neutral-80 d-flex flex-column align-items-start"
+                  >
+                    <p class="px-3 py-1 bg-neutral-40 rounded-pill mb-1">
+                      程式開發
+                    </p>
+                    <p>已有 420 位同學加入</p>
+                  </div>
+                  <p class="d-flex align-items-center">
+                    <span class="material-symbols-outlined icon-star">
+                      star </span
+                    ><span class="fw-bold">4.0</span>(333)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper1 = new Swiper(".swiperCourse", {
+        slidesPerView: 1,
+        spaceBetween: 16,
+
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 24,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+          1200: {
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+.banner-about {
+  background-image: url(/assets/images/hero-sm-5.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+
+  @include pad {
+    height: 300px;
+  }
+
+  @include pad-lg {
+    background-image: url(/assets/images/hero-5.png);
+    height: 400px;
+  }
+}
+
+.icon-hexschool {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  margin-top: -40px;
+
+  @include pad {
+    min-width: 160px;
+    width: 160px;
+    height: 160px;
+    padding: 15px;
+    margin-top: -80px;
+  }
+
+  @include pad-lg {
+    min-width: 240px;
+    width: 240px;
+    height: 240px;
+    padding: 20px;
+    margin-top: -120px;
+  }
+}
+
+.flower-5 {
+  width: 16px;
+  height: 16px;
+
+  @include pad-lg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.card-course {
+  border-radius: 20px;
+}
+
+.card-course {
+  box-shadow: 0px 25px 50px -12px #0000001f;
+}
